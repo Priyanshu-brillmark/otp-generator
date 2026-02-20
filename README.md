@@ -2,6 +2,8 @@
 
 Generate a 6-digit OTP and send it by email. Verify the OTP in the same session.
 
+**Using GitHub Pages?** See **[DEPLOY-STEPS.md](DEPLOY-STEPS.md)** for step-by-step backend deployment (e.g. Render) and wiring the frontend to it.
+
 ## Run locally
 
 ```bash
