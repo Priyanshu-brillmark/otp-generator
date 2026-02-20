@@ -5,8 +5,8 @@ const getOtpBtn = document.getElementById('get-otp');
 const checkOtpBtn = document.getElementById('check-otp');
 const message = document.getElementById('message');
 
-// Use same origin when opened via server (e.g. http://localhost:3000)
-const API_BASE = window.location.origin;
+// When on GitHub Pages, set window.OTP_API_BASE in config.js to your deployed backend URL.
+const API_BASE = (typeof window !== 'undefined' && window.OTP_API_BASE) || window.location.origin;
 
 let generatedOtp = '';
 
